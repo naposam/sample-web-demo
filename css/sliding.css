@@ -1,0 +1,98 @@
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html,body{
+          overflow-sld01: hidden;
+        }
+        .load{
+            animation: slide 2s;
+
+        }
+        .slider{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: cover;
+            width: 100%;
+            
+            animation: slide 40s infinite;
+
+
+        }
+        .content{
+            columns: #fff;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .principal{
+            left: 50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            text-align: center;
+            letter-spacing: 5px;
+            
+        }
+        .principal h1{
+            font-size: 40px;
+            margin-bottom: 20px: 
+            
+        }
+        footer{
+           background: cyan ;
+        }
+        h1{
+            color:#ffffff !important;
+            text-shadow: 2px 2px 2px darkorange;
+        }
+        h2{
+            color:#ffffff !important;
+             text-shadow: 2px 2px 2px green;
+
+        
+        }
+        .principal p{
+            font-size: 20px;
+        }
+        @keyframes slide{
+          0%{
+background-image: url('../images/sld01.jpg');
+          }
+          20%{
+background-image: url('../images/sld02.jpg');
+          }
+           20.01%{
+background-image: url('../images/sld03.jpg');
+          }
+          40%{
+background-image: url('../images/sld04.jpg');
+          }
+           40.01%{
+background-image: url('../images/sld15.jpg');
+          }
+          60%{
+background-image: url('../images/sld16.jpg');
+          }
+           60.01%{
+background-image: url('../images/sld17.jpg');
+          }
+          80%{
+background-image: url('../images/sld18.jpg');
+          }
+           80.01%{
+background-image: url('../images/sld05.jpg');
+          }
+          100%{
+background-image: url('../images/sld10.jpg');
+          }
+          100.01%{
+background-image: url('../images/sld11.jpg');
+          }
+
+        }
+        
+  
+
+
+
